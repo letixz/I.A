@@ -6,70 +6,73 @@ const textoResultado = document.querySelector(".texto-resultado");
 
 const perguntas = [
     {
-        enunciado: "Conhecimentos gerais",
+        enunciado: "Assim que saiu da escola você se depara com uma nova tecnologia, um chat que consegue responder todas as dúvidas que uma pessoa pode ter, ele também gera imagens e áudios hiper-realistas. Qual o primeiro pensamento?",
         alternativas: [
             {
-                texto: "Muito chato!",
+                texto: "Isso é assustador!",
                 afirmacao: "No início ficou com medo do que essa tecnologia pode fazer. "
             },
             {
-                texto: "Divertido!",
+                texto: "Isso é maravilhoso!",
                 afirmacao: "Quis saber como usar IA no seu dia a dia."
             }
         ]
     },
     {
-        enunciado: "Quem pintou a Monalisa?",
+   
+        enunciado: "De quem é essa a famosa frase: Penso logo existo?",
         alternativas: [
-                texto: "Leonardo da Vinci",
-                afirmacao: "Conseguiu utilizar a IA para buscar informações úteis."
+            {
+                texto: "Descartes.",
+                afirmacao: "Correto."
             },
             {
-                texto: "Vincent Van Gogh",
-                afirmacao: "Sentiu mais facilidade em utilizar seus próprios recursos para escrever seu trabalho."
+                texto: "Socrates.",
+                afirmacao: "Errado, Je pense, donc je suis é a frase original, escrita em francês, do filósofo René Descartes (1596-1650). Ela resume o pensamento e o método de Descartes, para quem tudo tem início na dúvida.."
             }
         ]
     },
     {
-        enunciado: "Quem escreveu Dom Quixote?",
+        enunciado: "De onde é a invenção do chuveiro eletrico?",
         alternativas: [
             {
-                texto: "Miguel de Cervantes",
-                afirmacao: "Vem impulsionando a inovação na área de IA e luta para abrir novos caminhos profissionais com IA."
+                texto: "Brasil.",
+                afirmacao: "Correto."
             },
             {
-                texto: "Willian Shakespeare",
-                afirmacao: "Sua preocupação com as pessoas motivou a criar um grupo de estudos entre trabalhadores para discutir meios de utilização de IA de forma ética."
+                texto: "França.",
+                afirmacao: "Errado, Francisco Canhos é o nome do homem que, na década de 40, desenvolveu o primeiro chuveiro elétrico seguro em Jaú-SP. O aparelho vinha sendo desenvolvido desde os anos 30, mas apresentava riscos de curto-circuito."
             }
         ]
     },
     {
-        enunciado: "Qual é a capital do Brasil?",
+        enunciado: "Qual o livro mais vendido no mundo?",
         alternativas: [
             {
-                texto: "Rio de janeiro",
-                afirmacao: "Notou também que muitas pessoas não sabem ainda utilizar as ferramentas tradicionais e decidiu compartilhar seus conhecimentos de design utilizando ferramentas de pintura digital para iniciantes."
+                texto: "Biblia.",
+                afirmacao: "Correto."
             },
             {
-                texto: "Brasília",
-                afirmacao: "Acelerou o processo de criação de trabalhos utilizando geradores de imagem e agora consegue ensinar pessoas que sentem dificuldades em desenhar manualmente como utilizar também!"
+                texto: "Dom Quixote.",
+                afirmacao: "Errado!O livro mais vendido foi a Biblia!"
             }
         ]
     },
     {
-        enunciado: "Qual o maior animal terrestre? ",
+        enunciado: "Em que periodo pré-historico o fogo foi descoberto? ",
         alternativas: [
             {
-                texto: "Elefante africano",
-                afirmacao: "Infelizmente passou a utilizar a IA para fazer todas suas tarefas e agora se sente dependente da IA para tudo."
+                texto: "Neolitico.",
+                afirmacao: "Foi no Paleolítico que o fogo começou a ser utilizado, quando os homens aprenderam que era possível obter fogo por meio do atrito de pedaços de madeira e pedra.."
             },
             {
-                texto: "Girafa",
-                afirmacao: "Percebeu que toda IA reproduz orientações baseadas na empresa que programou e muito do que o chat escrevia não refletia o que pensava e por isso sabe que os textos gerados pela IA devem servir como auxílio e não resultado final. "
+                texto: "Paleolitico.",
+                afirmacao: "Está correta. "
             }
         ]
     },
-;
+];
+
 
 
 let atual = 0;
